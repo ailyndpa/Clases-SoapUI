@@ -1,0 +1,1 @@
+log.info("informando de las configuraciones en el setup script")

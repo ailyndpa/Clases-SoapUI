@@ -1,0 +1,25 @@
+Status: FAILED
+Time Taken: 60038
+Size: 0
+Timestamp: Tue Jun 28 13:38:21 CDT 2022
+TestStep: CountryISOCode
+
+----------------- Messages ------------------------------
+java.net.SocketTimeoutException: Read timed out
+
+----------------- Properties ------------------------------
+Endpoint: http://www.oorsprong.org/websamples.countryinfo/CountryInfoService.wso
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.oorsprong.org/websamples.countryinfo">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:CountryISOCode>
+         <web:sCountryName>Panama</web:sCountryName>
+      </web:CountryISOCode>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+- missing response / garbage collected -
